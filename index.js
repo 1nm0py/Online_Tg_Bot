@@ -4,7 +4,7 @@ const token = '7419595711:AAELPbqJeaPDeyj1q_i6WTb3_gCUFQGUK_0'
 
 const { gameOptions, againOption } = require("./options")
 
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token);
 
 const obj = {}
 
