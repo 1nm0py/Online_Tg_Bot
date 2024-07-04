@@ -14,6 +14,7 @@ const startGame = async chatId => {
     obj[chatId] = randomNumber;
     await bot.sendMessage(chatId, `Sonni top!!!`, gameOptions)
 }
+// sadgfhjklj;gdfsfjkg
 
 const bot_fun = () => {
     bot.setMyCommands([
